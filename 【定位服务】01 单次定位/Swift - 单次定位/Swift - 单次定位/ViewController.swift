@@ -49,10 +49,15 @@ class ViewController: UIViewController {
         // 开始更新位置信息（一旦调用了这个方法, 就会不断的刷新用户位置, 然后告诉外界）
         // 以下代码默认只能在前台获取用户的位置信息, 如果想要在后台获取用户的位置信息, 那么需要勾选后台模式 location updates
         // 小经验: 如果以后使用位置管理者这个对象, 实现某个服务, 可以用startXX开始某个服务，stopXX停止某个服务
-        locationM.startUpdatingLocation()
+        // locationM.startUpdatingLocation()
         
         // 方法2：监听重大位置变化的服务(基于基站进行定位)（显著位置变化定位服务）
         // locationManager.startMonitoringSignificantLocationChanges()
+        
+        // 单次定位请求
+        // 必须实现代理的定位失败方法
+        // 不能与startUpdatingLocation方法同时使用
+        locationM.requestLocation()
     }
     
     override func didReceiveMemoryWarning() {
@@ -74,6 +79,10 @@ extension ViewController: CLLocationManagerDelegate {
         // 只想获取一次用户位置信息,那么在获取到位置信息之后,停止更新用户的位置信息
         // 应用场景: 获取用户所在城市
         manager.stopUpdatingLocation()
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        print("定位失败--\(error.localizedDescription)")
     }
     
     // 代理方法：当用户的定位授权状态发生变化时调用
