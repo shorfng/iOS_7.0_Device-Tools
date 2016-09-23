@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0800"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7309497B1D94CF3000BC1D8E"
+               BuildableName = "OC-&#x5730;&#x7406;&#x5b9a;&#x4f4d;&#xff08;iOS9+&#xff09;.app"
+               BlueprintName = "OC-&#x5730;&#x7406;&#x5b9a;&#x4f4d;&#xff08;iOS9+&#xff09;"
+               ReferencedContainer = "container:OC-&#x5730;&#x7406;&#x5b9a;&#x4f4d;&#xff08;iOS9+&#xff09;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7309497B1D94CF3000BC1D8E"
+            BuildableName = "OC-&#x5730;&#x7406;&#x5b9a;&#x4f4d;&#xff08;iOS9+&#xff09;.app"
+            BlueprintName = "OC-&#x5730;&#x7406;&#x5b9a;&#x4f4d;&#xff08;iOS9+&#xff09;"
+            ReferencedContainer = "container:OC-&#x5730;&#x7406;&#x5b9a;&#x4f4d;&#xff08;iOS9+&#xff09;.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7309497B1D94CF3000BC1D8E"
+            BuildableName = "OC-&#x5730;&#x7406;&#x5b9a;&#x4f4d;&#xff08;iOS9+&#xff09;.app"
+            BlueprintName = "OC-&#x5730;&#x7406;&#x5b9a;&#x4f4d;&#xff08;iOS9+&#xff09;"
+            ReferencedContainer = "container:OC-&#x5730;&#x7406;&#x5b9a;&#x4f4d;&#xff08;iOS9+&#xff09;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7309497B1D94CF3000BC1D8E"
+            BuildableName = "OC-&#x5730;&#x7406;&#x5b9a;&#x4f4d;&#xff08;iOS9+&#xff09;.app"
+            BlueprintName = "OC-&#x5730;&#x7406;&#x5b9a;&#x4f4d;&#xff08;iOS9+&#xff09;"
+            ReferencedContainer = "container:OC-&#x5730;&#x7406;&#x5b9a;&#x4f4d;&#xff08;iOS9+&#xff09;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
