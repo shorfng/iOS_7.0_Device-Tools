@@ -18,6 +18,12 @@ class ViewController: UIViewController {
         return CLGeocoder()
     }()
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.mapView.delegate = self
+    }
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         // MARK: - 地理编码
         geoCoder.geocodeAddressString("广州") { (pls: [CLPlacemark]?, error) -> Void in
@@ -63,7 +69,7 @@ class ViewController: UIViewController {
         directions.calculate { (response:MKDirectionsResponse?, error:Error?) in
             
             if error == nil {
-                print(response)
+                print(response as Any)
                 
                 // MARK: - ② 解析导航数据
                 // 遍历 routes （MKRoute对象）：因为有多种路线
